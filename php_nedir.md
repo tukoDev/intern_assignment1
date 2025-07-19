@@ -138,6 +138,18 @@ PHP ve HTML arasındaki ilişki çok basittir.PHP kodu içinde HTML yazabilirsin
 
 Kısaca: PHP, HTML'yi "akıllı" hale getirir ve web sayfalarının değişken, kişiselleştirilmiş içerik göstermesini sağlar.
 
+Metinde geçen birkaç kelime:
+###### Namespace Desteği
+Kodları organize etmek için "isim alanları" oluşturma özelliğidir. Aynı isimde sınıfların karışmasını önler.
+
+###### Trait (Özellik)
+Sınıflar arasında kod paylaşımı yapmanın bir yoludur. Bir sınıf sadece bir sınıftan miras alabilir ama birden fazla trait kullanabilir.
+
+###### CSRF Koruması
+CSRF (Cross-Site Request Forgery - Siteler Arası İstek Sahteciliği), web uygulamalarına yönelik yaygın bir siber saldırı türüdür.
+CSRF koruması şu mantıkla çalışır: Her form gönderiminde benzersiz, tahmin edilemeyen bir token kullanılır. Kötü niyetli siteler bu tokeni bilemeyeceği için sahte istekler başarısız olur.
+
+Bu koruma, özellikle para transferi, şifre değişimi, hesap silme gibi kritik işlemler için hayati önemdedir.
 
 
 
