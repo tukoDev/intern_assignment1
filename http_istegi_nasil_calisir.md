@@ -200,7 +200,7 @@ Bu sayede PHP, statik HTML'den farklı olarak her kullanıcıya özel, güncel v
 
 Tarayıcı → HTTP İsteği → Web Sunucusu → PHP → Veritabanı
 
-&nbsp;                                     ↑         ↓
+&nbsp;                                  ↑         ↓
 
 Tarayıcı ← HTTP Yanıtı ← Web Sunucusu ← PHP ← Veritabanı (Veri)
 
